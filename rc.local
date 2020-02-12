@@ -17,5 +17,5 @@ if [ "$_IP" ]; then
   printf "My IP address is %s\n" "$_IP"
 fi
 
-sudo -H -u pi -i  /home/pi/LB/startLB
+sudo -H -u pi -i  /home/pi/LoveCats/LoveCats.py
 exit 0
