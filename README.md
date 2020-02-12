@@ -1,23 +1,20 @@
-# LOVE BIRDS
+# LOVE BIRDS(CATS)
 
 ## Send and receive voice messages using Raspberry PI Zero and Telegram
 
+This repo is a fork from Love Birds. I like cats more, so I have created another version.
+I added also some nice LED-Stripe Signaling Lights in the code and another sounds.
 
-### What is Love (birds)?
+### What is Love (birds) (cats) ?
 
 It’s a standalone device to receive send voice messages with one person: lover, family or friend. Open the box, push on the button while you talk, release to send. Your correspondent will receive the voice message on his Telegram phone app or on his own LoveBirds box with a nice motor move and bird song.
 
 See the video here: https://www.youtube.com/watch?v=enLJgY6dZ9U
-
-
-
-This is the method to install from scratch the Love Birds projects. **If you want an easier installation method please follow the intructable here to just burn the prebuilt SD card:**
-
 https://www.instructables.com/id/Love-Birds-a-Box-to-Send-and-Receive-Telegram-Audi/
 or here https://www.raspiaudio.com/lovebirds/
 
 
-### Ok so you want to go the hard way and rebuild it from scratch:
+### Ok so you want to go the hard way and rebuild it from scratch (in this fork there is only the "hard" way):
 
  
 #### Architecture:
@@ -53,7 +50,7 @@ Wifi initialization: it uses a built-in Raspbian feature just edit a wpa_supplic
           
       . vlc
       
-          sudo apt-get vlc
+          sudo apt-get install vlc
           
        . GPIO
        
@@ -88,7 +85,7 @@ Wifi initialization: it uses a built-in Raspbian feature just edit a wpa_supplic
   ##### Start the programs on boot
   Copy the content of this GIT of the directory /LB in /home/pi/LB
   to start the valentin program at startup :
-  sudo cp /home/pi/LB/rc.local  /etc
+  sudo cp /home/pi/LoveBirds/rc.local  /etc
   boot the sytem and start a browser from any computer of your local network to complete the configuration of Telegram (see the instructable from that point.)
   
 
